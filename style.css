@@ -1,0 +1,284 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.portfolio{
+   
+    display: flex;
+    flex-direction:column;
+  
+
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 3%;
+    border-radius: 0.625rem;
+    background-color: #575252;
+    padding: 2% 1%;
+}
+
+.espaco_img_circulo{
+    width: 40%;
+   
+}
+
+
+.perfil_inicio{
+    display:flex;
+    gap:10%;
+    width: 50%;
+    aspect-ratio: 1/1 ;
+    object-fit:cover;
+    border-radius: 50%;
+    background-color:#4d0d8c;
+    border: 0.1875rem solid #fffcfc;
+}
+.perfil{
+   
+    width: 110%;
+    height: 95%;
+
+}
+
+.conteudo_e_botao{
+    display: flex;
+    flex-direction:column; 
+   
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-end;
+    width: 50%; 
+    
+}
+
+.conteudo_projeto{
+    display: flex;
+    flex-direction:column; 
+    padding: 1% 3%;
+    gap: 1.25rem;
+    width: 90%;
+    
+    background-color: #4d0d8c;
+    border-radius: 0.625rem;   /* Arredonda os cantos */
+    color: aliceblue;
+
+}
+
+
+.botao_inicial {
+    display: flex;
+    justify-content: flex-end; /* Centraliza o conteúdo */
+    width: 100%;
+    padding: 1% 1%;
+   
+}
+
+.botao_comversa {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: aliceblue;
+    font-weight: bold;
+    padding: 0.625rem 0.625rem;
+    background-color: #5f18a6;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.botao_comversa:hover {
+    background-color: #7a26d7; /* Cor ao passar o mouse */
+}
+
+.botao_comversa:focus {
+    outline: none; /* Remove o contorno padrão ao focar */
+    box-shadow: 0 0 0 0.1875rem rgba(0, 0, 0, 0.2); /* Efeito de foco */
+
+
+}
+
+
+.box_fotos {
+    display: flex; 
+    justify-content: center; 
+    gap: 10%;
+    margin: 0% 4%;
+   
+    
+}
+
+
+.voyage{
+
+    width: 26%;
+    height: 6%;
+    border-radius: 1.25rem;
+}.controle{
+
+    
+    width: 30%;
+    height: 22%;
+    border-radius: 1.25rem;
+
+}.mustang{
+
+    width: 37%;
+    height: 26%;
+    border-radius: 1.25rem;
+
+}
+@media (max-width:1701px ){
+    .voyage{
+
+        width: 24%;
+        height: 6%;
+        border-radius: 1.25rem;
+    }.controle{
+    
+        
+        width: 24%;
+        height: 22%;
+        border-radius: 1.25rem;
+    
+    }.mustang{
+    
+        width: 30%;
+        height: 26%;
+        border-radius: 1.25rem;
+    
+    }
+
+}
+
+
+
+ @media (max-width:1217px ){
+    .portfolio{
+        align-items: center;
+        width: auto;
+    }
+
+    .apresentacao{
+        flex-direction: column;
+        background-color: black;
+        width: auto;
+        align-items: center;
+    }
+    
+    .perfil{
+        width: 110%;
+        height: 95%;
+
+    }
+    .perfil_inicio{
+        display:flex;
+        gap:10%;
+        width: 90%;
+        aspect-ratio: 1/1 ;
+        object-fit:cover;
+        border-radius: 50%;
+        background-color:#4d0d8c;
+        border: 0.1875rem solid #fffcfc;
+    }
+
+    
+    .conteudo_e_botao{
+        width: auto;
+        align-items: center;
+        
+     
+        
+    
+    
+    }
+    .conteudo_projeto{
+        font-size: 0.5rem;
+        width: auto;
+        
+        justify-content: center ;
+    }
+    .botao_inicial{
+        justify-content: center;
+
+        margin-top: 5%;
+    }
+    .inicio_Ola{
+        font-size: 1.400rem;
+    }
+
+   
+    .inicio_criando{
+
+        font-size: 1.500rem;
+    }
+    
+    .box_fotos{
+
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+
+    }
+    
+    .mustang{
+        width: auto;
+    }
+    .controle{
+        width: auto;
+
+    }
+
+    .voyage{
+        width: auto;
+    }
+ 
+}
+ @media (max-width:789px ){
+    .voyage{
+        
+         width: 70%;
+       
+    }
+ }
+
+
+
+ @media (max-width:705px ){
+
+    .portfolio{
+        align-items: center;
+        width: auto;
+    }
+
+
+    .box_fotos{
+        margin: 0%;
+        width:100% ;
+    }
+
+    .mustang{
+        width: 70%;
+    }
+    .controle{
+        width: 70%;
+
+    }
+
+    .voyage{
+        width: 75%;
+    }
+
+
+ }
+

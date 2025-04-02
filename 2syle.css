@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+.portifolio{
+ display: flex;
+
+ 
+}
+.apresentacao{
+
+    justify-content: space-around;
+    margin: 1% 2%;
+    border-radius: 0.625rem;
+    background-color: #575252;
+    padding: 0% 0%;
+
+}
+
+
+
+.perfil_inicio{
+    display:flex;
+    gap:10%;
+    width: 8%;
+    aspect-ratio: 1/1 ;
+    object-fit:cover;
+    border-radius: 50%;
+    background-color:#4d0d8c;
+    border-top:1% ;
+    border: 0.1875rem solid #fffcfc;
+    margin:1% ;
+    
+}
+.perfil{
+   
+    width: 90%;
+    height: 95%;
+  
+}
+
+.fotos_inicio{
+    display: flex; 
+    justify-content:space-between;
+    margin: 2%;
+
+   
+
+
+    
+}
+.coluna1{
+    display: flex;
+    flex-direction:column; 
+
+
+
+}
+.coluna2{
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+    width: 50%;
+    height:auto ;
+
+}
+.coluna3{
+
+    display: flex;
+    flex-direction:column; 
+    justify-content: center;
+    height: 100%;
+    
+
+}
+
+
+
+.fotos{
+    
+  width: 80%;
+  height:auto ;
+
+}
+.foto{
+
+    width: 80%;
+    height:auto ;
+
+}
+.fotas{
+    width: 100%;
+    height:auto ;
+
+}
+
+
+.container {
+    position: relative;
+    display: inline-block; /* Faz o link se ajustar ao tamanho da imagem */
+}
+
+.fotos {
+    display: block; /* Remove o espaço abaixo da imagem */
+    width: 79%; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+.text {
+    background-color: black;
+    position: absolute;
+    padding: 2%;
+    border-radius: 0.625rem;
+    top: 50%; /* Centraliza verticalmente */
+    left: 38%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para realmente centralizar */
+    color: white; /* Altere a cor do texto conforme necessário */
+    font-size: 2.125rem; /* Tamanho da fonte */
+    font-weight: bold; /* Tamanho da fonte */
+}
+
+.text3  {
+    text-align: center;
+    color: white; /* Cor do texto */
+    background-color: black;
+    padding: 3%;
+    border-radius: 10px; /* Para arredondar os cantos, se preferir */
+    
+}
+
+.containe3 {
+    width: 50%;
+    padding: 20%;
+    background-image: url('fotos2/carro3.png'); /* Substitua pela URL ou caminho da sua imagem */
+    background-size: cover; /* A imagem cobre toda a área */
+    background-position: center; /* Centraliza a imagem */
+    display: flex; /* Usando Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-decoration: none;
+    border-radius: 5%;
+    
+}
+
+
+
+
+.fotos2 {
+    display: block; /* Remove o espaço abaixo da imagem */
+    width: 79%; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+
+
+.fotos3 {
+    display: block; /* Remove o espaço abaixo da imagem */
+    width: 79%; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+
+@media (max-width:1217px ){
+    .portfolio{
+    
+        align-items: center;
+        width: auto;
+    }
+
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        width: auto;
+        align-items: center;
+    }
+    
+    .perfil{
+        padding: 0% 0% 0% 7%;
+        width: 90%;
+        height: 75%;
+
+    }
+    .perfil_inicio{
+        display:flex;
+        align-items: center;
+        gap:10%;
+        width: 60%;
+        aspect-ratio: 1/1 ;
+        object-fit:cover;
+        border-radius: 50%;
+        background-color:#4d0d8c;
+        border: 0.1875rem solid #fffcfc;
+    }
+
+
+    .text3{
+
+        font-size:1.125rem ;
+    }
+
+    .fotos_inicio{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .fotos{
+
+        width: 80;
+    }
+    .coluna1{
+        display: flex;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .text{
+        left: 48%;
+    }
+    .fotos2{
+
+        display: none;
+
+    }
+
+    .coluna2{
+
+
+     padding: 5%;
+
+    }
+    .fotas{
+        width: 150%;
+    }
+    .coluna3{
+        display: flex;
+        align-items: center;
+    }
+    .containe3{
+
+        width: 85%;
+        padding:30%;
+    }
+    .foto{
+
+        display: none;
+    }
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.cabecalho {
+    background-color: #4d0d8c;  /* Cor de fundo */
+    color: aliceblue;            /* Cor do texto */
+   
+    width:90% ;
+    padding: 1.25rem 1%;               /* Espaçamento interno */
+    text-align: center;          /* Centraliza o texto */
+    border-radius: 0.625rem;          /* Bordas arredondadas */
+    margin-bottom: 1.25rem;         /* Espaço abaixo do cabeçalho */
+    margin-left: 4%;
+    margin-top: 1%;
+
+}
+
+/* Estilo do texto dentro do cabeçalho */
+.cabecalho h1 {
+    font-size: 3.125rem;  /* Tamanho da fonte */
+    font-weight: bold;  /* Negrito */
+    margin: 0%;  /* Remove margem extra */
+
+}
+.sobre{
+    color: aliceblue;
+    font-size: 1.900rem;
+}
+
+.texto{
+display: flex;
+font-size: 1.400rem;
+justify-content: space-evenly;
+
+
+
+
+}
+.texto_texto{
+width: 50%;
+text-align: justify;
+
+}
+.p{
+    display: flex;
+    margin-bottom:1% ;
+}
+.quadro_branco_inicio{
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 0% 10% 0%;
+    background-color: aliceblue;
+    border-radius: 1.25rem;
+    align-items: center;
+    gap: 1.5625rem;
+
+}
+
+.quadro_branco {
+ 
+    
+    color: black;
+   
+   
+   
+    font-size:1.875px;
+   
+    
+
+    gap:10%;
+    justify-content: center;
+    font-size: 1.900rem;
+    
+
+}
+ .quadro_branco_texto{
+    display: flex;
+  
+    color: rgb(0, 0, 0);
+ 
+    
+   
+     }
+.linha{
+display: flex;
+width: 2%;
+height:150% ;
+background-color: rgb(0, 0, 0);
+
+
+}
+.linha_conteudo{
+    display: flex;
+    gap: 10%;
+}
+@media (max-width:2250px ){
+
+    .texto{
+
+        display: flex;
+        font-size:1.100rem ;
+        flex-direction:column;
+        align-items: center;
+    }
+    .texto_texto{
+       
+        width: 90%;
+    }
+    .p{
+       
+
+    font-size: 1.100;
+}
+
+}
+@media (max-width:1250px ){
+
+.quadro_branco_inicio{
+    width: auto;
+    
+    }
+}

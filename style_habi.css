@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+  
+}
+
+.cabecalho_ha{
+  
+
+    background-color: #b30c0c;  /* Cor de fundo */
+    color: aliceblue;            /* Cor do texto */
+   
+    width:90% ;
+    padding: 2.5rem 1%;               /* Espaçamento interno */
+    text-align: center;          /* Centraliza o texto */
+    border-radius: 0.625rem;          /* Bordas arredondadas */
+    margin-bottom: 1.25rem;         /* Espaço abaixo do cabeçalho */
+    margin-left: 4%;
+    margin-top: 1%;
+    justify-content: space-around;
+
+}
+.container_habilidade{
+display: flex;
+justify-content: space-around;
+width: auto;
+color: aliceblue;
+text-decoration: none;
+
+}
+.cabecalho_habi{
+
+    font-size: 1.400rem;
+    margin: 0% 0% 0% 2%;
+}
+
+
+.vermelhos{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+
+
+.linha1{
+
+    background-color:  #b1b2b5;
+    width: 1%;
+    height: 200%;
+    border-radius: 3.125rem;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+
+
+
+
+.quadros_vermelhos2{
+    display: flex;
+    background: #b30c0c;
+    width: 20%;
+    height: auto;
+}
+.conteudo_habilidades{
+
+display: flex;
+background-color: #b30c0c;
+color: aliceblue;
+width: 20%;
+padding:0% 0% 22% 0% ;
+gap: 3%;
+border-radius: 0.625rem;
+
+}
+.quadr_vermelho_texto{
+margin-top: 10%;
+
+}
+.linha2{
+    background-color: #b1b2b5;
+    width: 1%;
+    height: 200%;
+    border-radius: 3.125rem;
+    margin-left: 40%;
+    margin-top: 10%;
+
+
+}
+.coteudo_projetos{
+
+display: flex;
+background-color: #b30c0c;
+color: aliceblue;
+width: 20%;
+padding:0% 0% 22% 0% ;
+gap: 3%;
+border-radius: 0.625rem;
+}
+.linha3{
+    background-color:  #b1b2b5;
+    width: 1%;
+    height: 200%;
+    border-radius: 3.125rem;
+    margin-left: 3%;
+    margin-top: 10%;
+}
+.quadro_vermelho_projetos{
+    margin-top: 10%;
+}
+.linha4{
+    background-color:  #b1b2b5;
+    width: 1%;
+    height: 200%;
+    border-radius: 3.125rem;
+    margin-left: 13%;
+    margin-top: 10%;
+}
+
+@media (max-width:1500px ){
+.vermelhos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linha1{
+    height: auto;
+    width: 1%;
+}
+.linha2{
+    height: auto;
+    width: 1%;
+}
+.conteudo_habilidades{
+
+    width:40%;
+    height: 20%;
+
+}
+
+.linha3{
+    height: auto;
+    width: 1%;
+}
+.linha4{
+    height: auto;
+    width: 1%;
+}
+.container_habilidade{
+   display: flex;
+ 
+  flex-wrap:wrap ;
+}
+.coteudo_projetos{
+    width:40% ;
+    margin-top:5% ;
+}
+}
