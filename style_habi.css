@@ -162,3 +162,16 @@ border-radius: 0.625rem;
     margin-top:5% ;
 }
 }
+@media (max-width:550px ){
+    .conteudo_habilidades{
+
+        width:80%;
+        height:20% ;
+    
+    }
+
+    .coteudo_projetos{
+        width:80% ;
+        margin-top:5% ;
+    }
+}

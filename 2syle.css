@@ -16,14 +16,27 @@
 }
 .apresentacao{
 
-    justify-content: space-around;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
     margin: 1% 2%;
     border-radius: 0.625rem;
     background-color: #575252;
     padding: 0% 0%;
+ 
 
 }
+.text2{
+    
+width: 50%;
+background-color: #4d0d8c;
+color: aliceblue;
+font-size: 50px;
+border-radius: 10px;
+margin-right: 50%;
 
+}
 
 
 .perfil_inicio{
@@ -37,6 +50,7 @@
     border-top:1% ;
     border: 0.1875rem solid #fffcfc;
     margin:1% ;
+
     
 }
 .perfil{
